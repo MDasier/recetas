@@ -1,17 +1,37 @@
 [
+
   {
-    "name": "water",
-    "price": 2,
-    "isPurchased": false
+    "id":0,
+    "receta": "Pollo con verduras",
+    "descripcion": "Un plato sencillo y sabroso que vale para cualquier época del año. Salteamos verduras hasta dejarlas al punto que nos guste y pasamos el pollo por la plancha. Listo!",
+    "dificultad":"fácil",
+    "tiempo":20,
+    "calorias": 500,
+    "ingredientes":"pollo verduras plancha pimiento cebolla ajo",
+    "personas":"2",
+    "tipo": "gluten free"
   },
   {
-    "name": "potatoes",
-    "price": 1,
-    "isPurchased": true
+    "id":1,
+    "receta": "Ensalada cobb",
+    "descripcion": "descripcion ensalada cobb",
+    "dificultad":"fácil",
+    "tiempo":10,
+    "calorias": 500,
+    "ingredientes":"pavo lechuga queso ensalada tomate plancha",
+    "personas":"1",
+    "tipo": "perdida peso"
   },
   {
-    "name": "salt",
-    "price": 0.4,
-    "isPurchased": false
+    "id":2,
+    "receta": "Arroz con pollo",
+    "descripcion": "descripcion arroz con pollo",
+    "dificultad":"fácil",
+    "tiempo":40,
+    "calorias": 500,
+    "ingredientes":"arroz pollo olla ajo",
+    "personas":"2",
+    "tipo": "ganancia muscular"
   }
+  
 ]
