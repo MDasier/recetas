@@ -7,7 +7,7 @@
     "dificultad":"medio",
     "tiempo":20,
     "calorias": 500,
-    "ingredientes":"pollo con verduras plancha pimiento cebolla ajo",
+    "ingredientes":"pollo con verduras plancha pimiento cebolla ajo gluten free",
     "personas":"2",
     "tipo": "gluten free"
   },
@@ -32,6 +32,28 @@
     "ingredientes":"arroz con pollo olla ajo",
     "personas":"2",
     "tipo": "ganancia muscular"
+  },
+  {
+    "id":3,
+    "receta": "Falsa quiche de verduras",
+    "descripcion": "descripcion Falsa quiche de verduras Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis ullamcorper eros. Proin arcu mi, suscipit in elementum tempus, suscipit eu purus. Etiam dapibus aliquet malesuada. Quisque rutrum urna quis turpis dapibus vestibulum. Integer venenatis lorem interdum posuere imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum porta et mauris id malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vestibulum felis eget odio commodo, sit amet facilisis magna hendrerit.",
+    "dificultad":"difícil",
+    "tiempo":40,
+    "calorias": 500,
+    "ingredientes":"Falsa quiche de verduras ajo cebolla",
+    "personas":"2",
+    "tipo": "vegetariana"
+  },
+  {
+    "id":4,
+    "receta": "Porridge de avena y cacao",
+    "descripcion": "descripcion Porridge de avena y cacao Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis ullamcorper eros. Proin arcu mi, suscipit in elementum tempus, suscipit eu purus. Etiam dapibus aliquet malesuada. Quisque rutrum urna quis turpis dapibus vestibulum. Integer venenatis lorem interdum posuere imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum porta et mauris id malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vestibulum felis eget odio commodo, sit amet facilisis magna hendrerit.",
+    "dificultad":"fácil",
+    "tiempo":5,
+    "calorias": 200,
+    "ingredientes":"Porridge de avena y cacao",
+    "personas":"1",
+    "tipo": "sin lactosa"
   }
   
 ]

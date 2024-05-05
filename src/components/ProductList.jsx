@@ -7,7 +7,7 @@ function ProductList(props) {
 
       {props.products
       .filter((eachProduct)=>{
-        return eachProduct.receta.toLowerCase().includes(props.searchValue.toLowerCase())
+        return eachProduct.ingredientes.toLowerCase().includes(props.searchValue.toLowerCase())
       })
       .map((eachProduct, index) => {
         return (

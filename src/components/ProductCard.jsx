@@ -22,12 +22,13 @@ const toggleFunction = () => {
       <p style={{color:props.eachProduct.dificultad==="medio"?"orange":props.eachProduct.dificultad==="difícil"?"rgb(214, 72, 72)":"green"}}>{props.eachProduct.dificultad}</p>
       <p>{props.eachProduct.tiempo} min</p>
       {/*🥑✅💪🟡⚖️⬇️⬆️🌾🆓🥬*/}
-       <p>{props.eachProduct.tipo === "gluten free" ? "🌾🆓" : props.eachProduct.tipo === "ganancia muscular" ? "💪" : props.eachProduct.tipo === "perdida peso" ? "⚖️⬇️" : "🥬"}</p>
+       <p>{props.eachProduct.tipo === "gluten free" ? "🌾🆓" : props.eachProduct.tipo === "ganancia muscular" ? "💪" : props.eachProduct.tipo === "perdida peso" ? "⚖️⬇️" : props.eachProduct.tipo === "vegetariana" ? "🥬" : props.eachProduct.tipo === "sin lactosa" ? "🐄🆓" :"🥑"}</p>
     </div>
-    { toggle && <div className='receta-completa'>
+    { toggle && <div className='receta-completa '>
       <h3>{props.eachProduct.descripcion}</h3>
       <p>Receta para {props.eachProduct.personas} pax</p>
       <p>{props.eachProduct.calorias} calorias aprox.</p>
+      <p>{props.eachProduct.tipo}</p>
     </div>}
     
   </>
