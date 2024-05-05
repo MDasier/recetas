@@ -7,7 +7,7 @@ import SearchBar from "../components/SearchBar";
 // this data is just for testing the initial rendering of data
 import testProducts from "../data/testProducts.json";
 
-function ShoppingList() {
+function ShoppingList(props) {
   const [searchValue,setSearchValue] = useState("")
   const [ allProducts, setAllProducts ] = useState(testProducts) 
   const [isFormShowing,setIsFormShowing] = useState(false)
@@ -20,8 +20,8 @@ function ShoppingList() {
       
 
       {isFormShowing && <AddForm 
-      allProducts={allProducts}
-      setAllProducts={setAllProducts}/>}
+      allProducts={props.allProducts}
+      setAllProducts={props.setAllProducts}/>}
 
       <SearchBar
       searchValue={searchValue}

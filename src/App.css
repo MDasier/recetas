@@ -5,13 +5,40 @@
   text-align: center;
 }
 
-h1, h2 {
-  text-decoration: underline;
+h1, h2{
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a{
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.4em;
 }
 
 .container {
   padding: 5px 20px 20px 20px;
   margin: 5px;
+}
+.receta-completa{
+  border-radius: 20px;
+  padding: 5px 20px 20px 20px;
+  margin: 5px;
+  background-color: rgba(241, 209, 64, 0.596);
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+}
+.receta-completa p {
+  /*font-weight: bold;*/
+  font-style: italic;
+  text-transform: capitalize;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .add-form {
@@ -33,31 +60,46 @@ h1, h2 {
   margin-top: 10px;
 }
 .search-bar {
-  background-color: rgb(0, 0, 79);
+  background-color: rgba(241, 209, 64, 0.596);
+  display: flex;
+  justify-content: space-evenly;
+}
+input {
+  height: 35px;
+  width: 400px;
+  border-radius: 10px;
+  font-size: 18px;
 }
 
 .product-list {
-  background-color: rgb(41, 0, 35);
+  background-color: rgb(165, 165, 165);
 }
 
 .product-card {
   text-align: start;
-  background-color: rgb(85, 0, 85);
+  background-color: rgb(65, 65, 65);
   padding: 5px 20px 5px 20px;
   margin: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 35px;
-  font-size: 14px;
+  gap: 25px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
 }
 
 .product-card h3 {
-  width: 150px;
+  width: 350px;
 }
 
 .product-card p {
-  width: 40px;
+  width: 100px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .product-card button {

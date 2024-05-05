@@ -4,10 +4,10 @@
     "id":0,
     "receta": "Pollo con verduras",
     "descripcion": "Un plato sencillo y sabroso que vale para cualquier época del año. Salteamos verduras hasta dejarlas al punto que nos guste y pasamos el pollo por la plancha. Listo!",
-    "dificultad":"fácil",
+    "dificultad":"medio",
     "tiempo":20,
     "calorias": 500,
-    "ingredientes":"pollo verduras plancha pimiento cebolla ajo",
+    "ingredientes":"pollo con verduras plancha pimiento cebolla ajo",
     "personas":"2",
     "tipo": "gluten free"
   },
@@ -18,18 +18,18 @@
     "dificultad":"fácil",
     "tiempo":10,
     "calorias": 500,
-    "ingredientes":"pavo lechuga queso ensalada tomate plancha",
+    "ingredientes":"pavo cobb lechuga queso ensalada tomate plancha",
     "personas":"1",
     "tipo": "perdida peso"
   },
   {
     "id":2,
     "receta": "Arroz con pollo",
-    "descripcion": "descripcion arroz con pollo",
-    "dificultad":"fácil",
+    "descripcion": "descripcion arroz con pollo Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis ullamcorper eros. Proin arcu mi, suscipit in elementum tempus, suscipit eu purus. Etiam dapibus aliquet malesuada. Quisque rutrum urna quis turpis dapibus vestibulum. Integer venenatis lorem interdum posuere imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum porta et mauris id malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vestibulum felis eget odio commodo, sit amet facilisis magna hendrerit.",
+    "dificultad":"difícil",
     "tiempo":40,
     "calorias": 500,
-    "ingredientes":"arroz pollo olla ajo",
+    "ingredientes":"arroz con pollo olla ajo",
     "personas":"2",
     "tipo": "ganancia muscular"
   }

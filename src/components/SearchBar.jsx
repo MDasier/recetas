@@ -1,4 +1,3 @@
-import { useState } from "react"
 
 function SearchBar(props) {
 
@@ -9,7 +8,7 @@ function SearchBar(props) {
   return (
     <div className="search-bar container">
       
-      {/* <h2>Buscar receta:</h2> */}
+      { <a href="https://www.instagram.com/left.nutrition/" target="_blank"> @left.nutrition 📷</a> }
         
       <input type="text" placeholder="Buscar receta..." value={props.searchValue} onChange={handleSearch}/>
 
