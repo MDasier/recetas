@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import AddForm from "../components/AddForm";
-import ProductList from "../components/ProductList";
-import SearchBar from "../components/SearchBar";
+import AddForm from "../components/AddForm.jsx";
+import ProductList from "../components/ProductList.jsx";
+import SearchBar from "../components/SearchBar.jsx";
 
 // this data is just for testing the initial rendering of data
 import testProducts from "../data/testProducts.json";

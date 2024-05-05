@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import ShoppingList from "./pages/ShoppingList"
-import NotFound from './pages/NotFound'
+import ShoppingList from "./pages/ShoppingList.jsx"
+import NotFound from './pages/NotFound.jsx'
 
 function App() {
 
