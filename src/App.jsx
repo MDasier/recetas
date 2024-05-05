@@ -13,6 +13,7 @@ function App() {
       
       <Routes>
         <Route path='/' element={<ShoppingList />}/>
+        <Route path='/recetas/' element={<ShoppingList />}/>
         <Route path='*' element={<NotFound />}/>
       </Routes>
       </BrowserRouter>
