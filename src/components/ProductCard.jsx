@@ -17,8 +17,8 @@ const toggleFunction = () => {
 }
   return (
   <>
-    <div className="product-card">
-      <h3 onClick={toggleFunction}>{props.eachProduct.receta}</h3>
+    <div className="product-card"  onClick={toggleFunction}>
+      <h3>{props.eachProduct.receta}</h3>
       <p style={{color:props.eachProduct.dificultad==="medio"?"orange":props.eachProduct.dificultad==="difícil"?"rgb(214, 72, 72)":"green"}}>{props.eachProduct.dificultad}</p>
       <p>{props.eachProduct.tiempo} min</p>
       {/*🥑✅💪🟡⚖️⬇️⬆️🌾🆓🥬*/}

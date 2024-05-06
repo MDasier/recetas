@@ -44,26 +44,12 @@ a{
 .add-form {
   background-color: rgb(53, 79, 0);
 }
-
-.add-form button {
-  width: 80px;
-  background-color: rgb(0, 125, 19);
-  border-color: rgba(0, 69, 15, 0.659);
-  border-radius: 20px;
-  height: 35px;
-  margin-top: 10px;
-}
-.add-form input {
-  text-align: center;
-  border-radius: 20px;
-  height: 25px;
-  margin-top: 10px;
-}
 .search-bar {
   background-color: rgba(241, 209, 64, 0.596);
   display: flex;
   justify-content: space-evenly;
 }
+
 input {
   height: 35px;
   width: 400px;
@@ -108,4 +94,37 @@ input {
   border-color: rgba(69, 59, 0, 0.659);
   border-radius: 20px;
   height: 35px;
+}
+
+@media (max-width: 780px) {
+  a{
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .product-card{
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .product-card h3 {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .product-card p {
+    font-size: 1rem;
+    text-align: end;
+    width: 100%;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  input {
+    height: 20px;
+    width: 60%;
+    border-radius: 10px;
+    font-size: 18px;
+  }
 }
