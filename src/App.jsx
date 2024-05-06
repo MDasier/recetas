@@ -12,10 +12,6 @@ function App() {
       <BrowserRouter>
       
       <Routes>
-<<<<<<< HEAD
-=======
-        <Route path='/' element={<ShoppingList />}/>
->>>>>>> 818ae54069d234fc2a0dce40e8717da455f045be
         <Route path='/recetas/' element={<ShoppingList />}/>
         <Route path='*' element={<NotFound />}/>
       </Routes>
