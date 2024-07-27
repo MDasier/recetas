@@ -10,7 +10,7 @@ function NavScrollExample(props) {
     }
 
   return (
-    <Navbar expand="md" className="bg-body-tertiary">
+    <Navbar expand="md" className="bg-body-tertiary" variant="dark">
       <Container fluid>
         <Navbar.Brand href="#">Las Recetas de Marina</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
