@@ -84,6 +84,7 @@ input {
   border-radius: 20px;
   width: 100%;
   max-width: max-content;
+  min-width: max-content;
 }
 
 .product-card h3 {
