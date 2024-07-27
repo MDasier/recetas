@@ -10,7 +10,7 @@ function SearchBar(props) {
       
       { <a href="https://www.instagram.com/left.nutrition/" target="_blank"> @left.nutrition 📷</a> }
         
-      <input type="text" placeholder="Buscar receta..." value={props.searchValue} onChange={handleSearch}/>
+      <input type="text" placeholder="Qué estás buscando..." value={props.searchValue} onChange={handleSearch}/>
 
     </div>
   )

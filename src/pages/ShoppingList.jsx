@@ -1,11 +1,9 @@
 import { useState } from "react";
-
 import AddForm from "../components/AddForm.jsx";
 import ProductList from "../components/ProductList.jsx";
 import SearchBar from "../components/SearchBar.jsx";
-
-// this data is just for testing the initial rendering of data
 import recetas from "../data/recetas.json";
+import NavScrollExample from "../components/NavScrollExample.jsx";
 
 function ShoppingList(props) {
   const [searchValue,setSearchValue] = useState("")
@@ -17,7 +15,9 @@ function ShoppingList(props) {
   return (
     <>
       {/* <button onClick={handleShowForm}>Show Add Form</button> */}
-      
+      <NavScrollExample 
+        searchValue={searchValue}
+        setSearchValue={setSearchValue}/>
 
       {isFormShowing && <AddForm 
       allProducts={props.allProducts}
