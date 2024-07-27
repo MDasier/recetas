@@ -81,6 +81,7 @@ input {
   font-size: 24px;
   color: rgb(0, 0, 0);
   border-radius: 20px;
+  width: 100%;
 }
 
 .product-card h3 {
@@ -114,6 +115,7 @@ input {
   .product-card{
     flex-direction: row;
     justify-content: space-evenly;
+    width: 100%;
   }
   .product-card h3 {
     width: 100%;

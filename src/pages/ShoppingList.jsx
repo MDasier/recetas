@@ -14,18 +14,18 @@ function ShoppingList(props) {
 
   return (
     <>
-      {/* <button onClick={handleShowForm}>Show Add Form</button> */}
-      <NavScrollExample 
+      {/* <NavScrollExample 
         searchValue={searchValue}
-        setSearchValue={setSearchValue}/>
+        setSearchValue={setSearchValue}/> */}
+      
 
       {isFormShowing && <AddForm 
       allProducts={props.allProducts}
       setAllProducts={props.setAllProducts}/>}
 
-      {/*<SearchBar
+      <SearchBar
       searchValue={searchValue}
-      setSearchValue={setSearchValue}/>*/}
+      setSearchValue={setSearchValue}/>
 
       <ProductList 
       products={allProducts} 
