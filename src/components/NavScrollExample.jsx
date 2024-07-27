@@ -12,7 +12,7 @@ function NavScrollExample(props) {
   return (
     <Navbar expand="sm" className="bg-body-tertiary search-bar" variant="dark">
       <Container>
-        <Navbar.Brand href="#">Las Recetas de Marina</Navbar.Brand>
+        <Navbar.Brand><h3>Las Recetas de Marina</h3></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
