@@ -45,6 +45,7 @@ a{
   -webkit-text-stroke-color: black;
   display: flex;
   flex-direction: column;
+  width: 70px;
 }
 
 .add-form {
