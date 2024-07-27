@@ -7,8 +7,8 @@ function SearchBar(props) {
 
   return (
     <div className="search-bar container">
-      
-      { <a href="https://www.instagram.com/left.nutrition/" target="_blank"> @left.nutrition 📷</a> }
+      <h1 className='titulo'>Las recetas de Marina</h1>
+      { <a href="https://www.instagram.com/left.nutrition/" target="_blank" className='titulo'> @left.nutrition 📷</a> }
         
       <input type="text" placeholder="Qué estás buscando..." value={props.searchValue} onChange={handleSearch}/>
 
