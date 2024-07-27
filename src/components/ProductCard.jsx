@@ -24,7 +24,7 @@ function ProductCard(props) {
     "ganancia muscular":"💪",
     "sin lactosa":"🐄🆓"
   }
-  const resultEmojis = tipos.map(tipo => emojis[tipo])
+  
   return (
   <>
     <div className="product-card receta-completa"  onClick={toggleFunction}>
@@ -33,7 +33,7 @@ function ProductCard(props) {
         <p style={{color:props.eachProduct.dificultad==="medio"?"orange":props.eachProduct.dificultad==="difícil"?"rgb(214, 72, 72)":"green"}}>{props.eachProduct.dificultad}</p>
         <p>{props.eachProduct.tiempo} min</p>
         {/*🥑✅💪🟡⚖️⬇️⬆️🌾🆓🥬*/}
-        <p>{resultEmojis
+        <p>{tipos.map(tipo => emojis[tipo])
         /*props.eachProduct.tipo === "gluten free" ? "🌾🆓" : props.eachProduct.tipo === "ganancia muscular" ? "💪" : props.eachProduct.tipo === "perdida peso" ? "⚖️⬇️" : props.eachProduct.tipo === "vegetariana" ? "🥬" : props.eachProduct.tipo === "sin lactosa" ? "🐄🆓" :"🥑"*/}</p>
        </div>
     </div>
