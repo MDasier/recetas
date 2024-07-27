@@ -83,10 +83,11 @@ input {
   color: rgb(0, 0, 0);
   border-radius: 20px;
   width: 100%;
+  max-width: max-content;
 }
 
 .product-card h3 {
-  width: 350px;
+  width: min-content;
 }
 
 .product-card p {
