@@ -5,11 +5,11 @@ import ProductList from "../components/ProductList.jsx";
 import SearchBar from "../components/SearchBar.jsx";
 
 // this data is just for testing the initial rendering of data
-import testProducts from "../data/testProducts.json";
+import recetas from "../data/recetas.json";
 
 function ShoppingList(props) {
   const [searchValue,setSearchValue] = useState("")
-  const [ allProducts, setAllProducts ] = useState(testProducts) 
+  const [ allProducts, setAllProducts ] = useState(recetas) 
   const [isFormShowing,setIsFormShowing] = useState(false)
 
   const handleShowForm =()=>{setIsFormShowing(!isFormShowing)}
