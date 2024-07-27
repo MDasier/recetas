@@ -34,7 +34,7 @@ function ProductCard(props) {
         <p>{props.eachProduct.tiempo} min</p>
         {/*🥑✅💪🟡⚖️⬇️⬆️🌾🆓🥬*/}
         <p>{
-        props.eachProduct.tipo.split(",")
+        props.eachProduct.tipo.split(", ")
         .map(tipo => emojis[tipo])
         /*props.eachProduct.tipo === "gluten free" ? "🌾🆓" : props.eachProduct.tipo === "ganancia muscular" ? "💪" : props.eachProduct.tipo === "perdida peso" ? "⚖️⬇️" : props.eachProduct.tipo === "vegetariana" ? "🥬" : props.eachProduct.tipo === "sin lactosa" ? "🐄🆓" :"🥑"*/}</p>
        </div>
