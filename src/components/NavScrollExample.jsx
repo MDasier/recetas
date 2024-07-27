@@ -10,18 +10,12 @@ function NavScrollExample(props) {
     }
 
   return (
-    <Navbar expand="sm" className="bg-body-tertiary search-bar" variant="dark">
+    <Navbar expand="sm" className="bg-body-tertiary " variant="dark">
       <Container>
         <Navbar.Brand><h3>Las Recetas de Marina</h3></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Nav.Link href="https://www.instagram.com/left.nutrition/" target="_blank">@left.nutrition 📷</Nav.Link>
-          </Nav>
+        <Nav.Link href="https://www.instagram.com/left.nutrition/" target="_blank">@left.nutrition 📷</Nav.Link>
           <Form className="d-flex">
             <Form.Control
               type="search"
