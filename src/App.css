@@ -63,7 +63,7 @@ input {
 
 .product-card {
   text-align: start;
-  background-color: rgb(65, 65, 65);
+  background-color: rgb(211, 210, 210);
   padding: 5px 20px 5px 20px;
   margin: 5px;
   display: flex;
@@ -71,7 +71,7 @@ input {
   align-items: center;
   gap: 25px;
   font-size: 24px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border-radius: 30px;
 }
 

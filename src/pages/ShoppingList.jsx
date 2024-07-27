@@ -23,9 +23,9 @@ function ShoppingList(props) {
       allProducts={props.allProducts}
       setAllProducts={props.setAllProducts}/>}
 
-      <SearchBar
+      {/*<SearchBar
       searchValue={searchValue}
-       setSearchValue={setSearchValue}/>
+      setSearchValue={setSearchValue}/>*/}
 
       <ProductList 
       products={allProducts} 
