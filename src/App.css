@@ -54,6 +54,8 @@ a{
   background-color: rgba(241, 209, 64, 0.596);
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
 }
 
 input {
@@ -65,6 +67,7 @@ input {
 
 .product-list {
   background-color: rgb(255, 255, 255);
+  width: 100wv;
 }
 
 .product-card {
