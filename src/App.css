@@ -10,6 +10,11 @@ h1, h2{
   font-weight: bold;
   text-decoration: none;
 }
+.titulo{
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 a{
   color: #ffffff;
@@ -29,6 +34,7 @@ a{
   gap: 5px;
   color: black;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   font-size: 18px;

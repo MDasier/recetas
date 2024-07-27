@@ -12,10 +12,9 @@ function NavScrollExample(props) {
   return (
     <Navbar expand="sm" className="bg-body-tertiary " variant="dark">
       <Container>
-        <Navbar.Brand><h3>Las Recetas de Marina</h3></Navbar.Brand>
+        <Navbar.Brand><h1 className='titulo'>Las Recetas de Marina</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-        <Nav.Link href="https://www.instagram.com/left.nutrition/" target="_blank">@left.nutrition 📷</Nav.Link>
+        <Nav.Link className='titulo' href="https://www.instagram.com/left.nutrition/" target="_blank">@left.nutrition 📷</Nav.Link>
           <Form className="d-flex">
             <Form.Control
               type="search"
@@ -26,7 +25,6 @@ function NavScrollExample(props) {
               onChange={handleSearch}
             />
           </Form>
-        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
